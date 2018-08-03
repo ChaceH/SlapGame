@@ -1,0 +1,45 @@
+.white-text{
+    color: white
+}
+
+.header-bg{
+background-color: black
+}
+
+.main-bg{
+    background-image: url(forestbg.jpg)
+}
+
+.footer-bg{
+background-color: black
+}
+
+.justify-content-center{
+    display: flex;
+    justify-content: center;
+}
+
+.align-items-center{
+    display: flex;
+    align-items: center;
+}
+
+.justify-content-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.justify-content-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flex-direction-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-margin{
+    margin: 10pt
+}
