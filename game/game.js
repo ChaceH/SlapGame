@@ -88,19 +88,19 @@ function endGame() {
 }
 
 function slap() {
-    decreaseHealth(1);
+    decreaseHealth(Math.floor(Math.random() * 2) + 1);
     blackKnight.hits++;
     draw()
 }
 
 function punch() {
-    decreaseHealth(5)
+    decreaseHealth(Math.floor(Math.random() * 3) + 3)
     blackKnight.hits++;
     draw()
 }
 
 function kick() {
-    decreaseHealth(10)
+    decreaseHealth(Math.floor(Math.random() * 4) + 6)
     blackKnight.hits++;
     draw()
 }
