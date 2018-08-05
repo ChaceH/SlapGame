@@ -32,9 +32,12 @@
         <section class="container-fluid main-bg">
             <div class="row align-items-center justify-content-space-around">
                 <div class="col-sm-4 justify-content-space-between align-items-center flex-direction-column">
-                    <button class="btn btn-success btn-lg button-margin" id="item1">ITEM1</button>
-                    <button class="btn btn-primary btn-lg" id="item2">ITEM2</button>
-                    <button class="btn btn-danger btn-lg button-margin" id="item3">ITEM3</button>
+                    <button class="btn btn-success btn-lg button-margin" id="item1" onclick="addItem('potion')">Heal</button>
+                    <button class="btn btn-primary btn-lg" id="item2" onclick="addItem('shield')">Shield</button>
+                    <button class="btn btn-danger btn-lg button-margin" id="item3" onclick="addItem('curse')">Curse</button>
+                    <h4 class="white-text">Item:
+                        <span id="active-item">_</span>
+                    </h4>
                 </div>
                 <div class="col-sm-4 justify-content-center">
                     <img src="game/blackKnight.jpg" alt="">
